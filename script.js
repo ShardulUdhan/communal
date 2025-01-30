@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwj2YrxJ7WR1_gOdNkizjivFDePURNOJ0H-bkIhlJ7c4BIxSgdn8WMGLrvDArerTZl4/exec"; // Replace with your Google Apps Script URL
+const API_URL = "https://script.google.com/macros/s/AKfycbyvqzAR2_R9_SfjulK46FSf6QILRFhe5GghD_FiukdGLODFtPc5SqKbEv_2SkhiAIAF/exec"; // Replace with your Google Apps Script URL
 
 function saveClipboard() {
     let keyword1 = document.getElementById("kw1").value;
