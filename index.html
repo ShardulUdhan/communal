@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communal Clipboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Communal Clipboard</h1>
+    
+    <label>Keyword 1:</label>
+    <input type="text" id="kw1" placeholder="Enter first keyword">
+    
+    <label>Keyword 2:</label>
+    <input type="text" id="kw2" placeholder="Enter second keyword">
+    
+    <textarea id="clipboardText" placeholder="Type or paste text here..."></textarea>
+    
+    <button onclick="saveClipboard()">Save</button>
+    <button onclick="loadClipboard()">Load</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
